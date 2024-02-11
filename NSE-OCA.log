@@ -1,0 +1,531 @@
+[2024-02-04 04:19:05 - INFO ] ----------Logging Started----------
+[2024-02-04 04:19:05 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:19:47 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:22:18 - INFO ] ----------Logging Started----------
+[2024-02-04 04:22:18 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:22:30 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:22:30 - ERROR]   WARNING(
+[2024-02-04 04:22:30 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1041: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-02-04 04:22:30 - ERROR]   df: pandas.DataFrame = pandas.read_json(response.text)
+[2024-02-04 04:22:30 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1409: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:22:30 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:22:30 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1417: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:22:30 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:22:30 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1446: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:22:30 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:22:30 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1454: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:22:30 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:22:30 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:22:30 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:22:30 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:22:30 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1536, in main
+[2024-02-04 04:22:30 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1282, in set_values
+[2024-02-04 04:22:30 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+[2024-02-04 04:23:55 - INFO ] ----------Logging Started----------
+[2024-02-04 04:23:55 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:23:59 - INFO ] invalid literal for int() with base 10: '' <class 'ValueError'> 7
+[2024-02-04 04:24:06 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:24:06 - ERROR]   WARNING(
+[2024-02-04 04:24:06 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1041: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-02-04 04:24:06 - ERROR]   df: pandas.DataFrame = pandas.read_json(response.text)
+[2024-02-04 04:24:06 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1409: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:24:06 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:24:06 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1417: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:24:06 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:24:06 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1446: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:24:06 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:24:06 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1454: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:24:06 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:24:06 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:24:06 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:24:06 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:24:06 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1536, in main
+[2024-02-04 04:24:06 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1282, in set_values
+[2024-02-04 04:24:06 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+Exception in Tkinter callback
+[2024-02-04 04:24:31 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:24:31 - ERROR]     return self.func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 539, in start
+[2024-02-04 04:24:31 - ERROR]     self.main_win()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1025, in main_win
+[2024-02-04 04:24:31 - ERROR]     self.root.mainloop()
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1458, in mainloop
+[2024-02-04 04:24:31 - ERROR]     self.tk.mainloop(n)
+KeyboardInterrupt
+[2024-02-04 04:24:35 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:25:24 - INFO ] ----------Logging Started----------
+[2024-02-04 04:25:24 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:25:29 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:25:29 - ERROR]   WARNING(
+[2024-02-04 04:25:29 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1041: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-02-04 04:25:29 - ERROR]   df: pandas.DataFrame = pandas.read_json(response.text)
+[2024-02-04 04:25:29 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1409: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:25:29 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:25:29 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1417: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:25:29 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:25:29 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1446: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:25:29 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:25:29 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1454: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:25:29 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:25:29 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:25:29 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:25:29 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:25:29 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1536, in main
+[2024-02-04 04:25:29 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1282, in set_values
+[2024-02-04 04:25:29 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+Exception in Tkinter callback
+[2024-02-04 04:26:17 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:26:17 - ERROR]     return self.func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 539, in start
+[2024-02-04 04:26:17 - ERROR]     self.main_win()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1025, in main_win
+[2024-02-04 04:26:17 - ERROR]     self.root.mainloop()
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1458, in mainloop
+[2024-02-04 04:26:17 - ERROR]     self.tk.mainloop(n)
+KeyboardInterrupt
+[2024-02-04 04:27:12 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:28:01 - INFO ] ----------Logging Started----------
+[2024-02-04 04:28:01 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:28:09 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:28:09 - ERROR]   WARNING(
+[2024-02-04 04:28:09 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:28:09 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:28:09 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:28:09 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1374, in main
+[2024-02-04 04:28:09 - ERROR]     entire_oc, current_time, self.points = self.get_dataframe()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1041, in get_dataframe
+[2024-02-04 04:28:09 - ERROR]     df: pandas.DataFrame = pandas.read_json(StringIO(response.text))
+NameError: name 'StringIO' is not defined
+[2024-02-04 04:28:21 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:30:30 - INFO ] ----------Logging Started----------
+[2024-02-04 04:30:30 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:30:36 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:30:36 - ERROR]   WARNING(
+[2024-02-04 04:30:36 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1410: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:30:36 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:30:36 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1418: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:30:36 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:30:36 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1447: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:30:36 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:30:36 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1455: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:30:36 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:30:36 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:30:36 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:30:36 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:30:36 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1537, in main
+[2024-02-04 04:30:36 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1283, in set_values
+[2024-02-04 04:30:36 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+[2024-02-04 04:33:18 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:34:01 - INFO ] ----------Logging Started----------
+[2024-02-04 04:34:01 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:34:06 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:34:06 - ERROR]   WARNING(
+[2024-02-04 04:34:06 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:34:06 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:34:06 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:34:06 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1411, in main
+[2024-02-04 04:34:06 - ERROR]     int_call_oi: int = int(entire_oc.iloc[i])
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/series.py", line 247, in wrapper
+[2024-02-04 04:34:06 - ERROR]     raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+[2024-02-04 04:35:03 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:35:08 - INFO ] ----------Logging Started----------
+[2024-02-04 04:35:08 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:35:14 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:35:14 - ERROR]   WARNING(
+[2024-02-04 04:35:14 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1410: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:35:14 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:35:14 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1419: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:35:14 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:35:14 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1448: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:35:14 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:35:14 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1456: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:35:14 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:35:14 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:35:14 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:35:14 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:35:14 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1538, in main
+[2024-02-04 04:35:14 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1283, in set_values
+[2024-02-04 04:35:14 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+[2024-02-04 04:36:21 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:36:48 - INFO ] ----------Logging Started----------
+[2024-02-04 04:36:48 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:36:53 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:36:53 - ERROR]   WARNING(
+[2024-02-04 04:36:53 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1410: FutureWarning: Calling int on a single element Series is deprecated and will raise a TypeError in the future. Use int(ser.iloc[0]) instead
+[2024-02-04 04:36:53 - ERROR]   int_call_oi: int = int(entire_oc.iloc[i, [0]])
+[2024-02-04 04:36:53 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1419: FutureWarning: Calling int on a single element Series is deprecated and will raise a TypeError in the future. Use int(ser.iloc[0]) instead
+[2024-02-04 04:36:53 - ERROR]   int_put_oi: int = int(entire_oc.iloc[i, [20]])
+[2024-02-04 04:36:53 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1448: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:36:53 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:36:53 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1456: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:36:53 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:36:53 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:36:53 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:36:53 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:36:53 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1538, in main
+[2024-02-04 04:36:53 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1283, in set_values
+[2024-02-04 04:36:53 - ERROR]     self.sheet.insert_row(values=output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'values'
+[2024-02-04 04:37:27 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:39:33 - INFO ] ----------Logging Started----------
+[2024-02-04 04:39:33 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:39:39 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:39:39 - ERROR]   WARNING(
+[2024-02-04 04:39:39 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1449: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:39:39 - ERROR]   int_call_oi_2: int = int(entire_oc.iloc[i, [0]][0])
+[2024-02-04 04:39:39 - ERROR] /root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py:1457: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+[2024-02-04 04:39:39 - ERROR]   int_put_oi_2: int = int(entire_oc.iloc[i, [20]][0])
+[2024-02-04 04:39:39 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:39:39 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:39:39 - ERROR]     return self.func(*args)
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 839, in callit
+[2024-02-04 04:39:39 - ERROR]     func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1539, in main
+[2024-02-04 04:39:39 - ERROR]     self.set_values()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1284, in set_values
+[2024-02-04 04:39:39 - ERROR]     self.sheet.insert_row(output_values, add_columns=True)
+TypeError: Sheet.insert_row() got an unexpected keyword argument 'add_columns'
+[2024-02-04 04:41:34 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:41:41 - INFO ] ----------Logging Started----------
+[2024-02-04 04:41:41 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:41:44 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:41:44 - ERROR]   WARNING(
+[2024-02-04 04:42:44 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:44:46 - INFO ] ----------Logging Started----------
+[2024-02-04 04:44:46 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:44:55 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:44:55 - ERROR]   WARNING(
+[2024-02-04 04:45:30 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:45:32 - INFO ] ----------Logging Started----------
+[2024-02-04 04:45:32 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:45:43 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:45:43 - ERROR]   WARNING(
+[2024-02-04 04:50:22 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:50:25 - INFO ] ----------Logging Started----------
+[2024-02-04 04:50:25 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:50:30 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:50:30 - ERROR]   WARNING(
+[2024-02-04 04:51:16 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:51:19 - INFO ] ----------Logging Started----------
+[2024-02-04 04:51:19 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:52:01 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:52:01 - ERROR]   WARNING(
+[2024-02-04 04:57:54 - ERROR] Exception in Tkinter callback
+[2024-02-04 04:57:54 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:57:54 - ERROR]     return self.func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 540, in start
+[2024-02-04 04:57:54 - ERROR]     self.main_win()
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 1026, in main_win
+[2024-02-04 04:57:54 - ERROR]     self.root.mainloop()
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1458, in mainloop
+[2024-02-04 04:57:54 - ERROR]     self.tk.mainloop(n)
+KeyboardInterrupt
+[2024-02-04 04:57:58 - INFO ] ----------Quitting Program----------
+Exception in Tkinter callback
+[2024-02-04 04:57:58 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 04:57:58 - ERROR]     return self.func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 854, in close_main
+[2024-02-04 04:57:58 - ERROR]     ask_quit: bool = messagebox.askyesno("Quit", "All unsaved data will be lost.\nProceed to quit?", icon='warning',
+  File "/usr/lib/python3.10/tkinter/messagebox.py", line 114, in askyesno
+[2024-02-04 04:57:58 - ERROR]     s = _show(title, message, QUESTION, YESNO, **options)
+  File "/usr/lib/python3.10/tkinter/messagebox.py", line 76, in _show
+[2024-02-04 04:57:58 - ERROR]     res = Message(**options).show()
+  File "/usr/lib/python3.10/tkinter/commondialog.py", line 45, in show
+[2024-02-04 04:57:58 - ERROR]     s = master.tk.call(self.command, *master._options(self.options))
+_tkinter.TclError: can't invoke "grab" command: application has been destroyed
+[2024-02-04 04:58:02 - INFO ] ----------Logging Started----------
+[2024-02-04 04:58:02 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:58:06 - INFO ] ----------Logging Started----------
+[2024-02-04 04:58:06 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 04:58:31 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:58:31 - ERROR]   WARNING(
+[2024-02-04 04:58:48 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 04:58:48 - ERROR]   WARNING(
+[2024-02-04 04:59:50 - INFO ] ----------Quitting Program----------
+[2024-02-04 04:59:54 - INFO ] ----------Logging Started----------
+[2024-02-04 04:59:54 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 05:00:00 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 05:00:00 - ERROR]   WARNING(
+[2024-02-04 05:00:14 - INFO ] ----------Logging Started----------
+[2024-02-04 05:00:14 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 05:00:18 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 05:00:18 - ERROR]   WARNING(
+[2024-02-04 05:05:25 - INFO ] ----------Logging Started----------
+[2024-02-04 05:05:25 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-04 05:05:34 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-04 05:05:34 - ERROR]   WARNING(
+[2024-02-04 05:06:21 - INFO ] ----------Quitting Program----------
+[2024-02-04 05:06:24 - INFO ] ----------Quitting Program----------
+[2024-02-04 05:06:32 - INFO ] ----------Quitting Program----------
+[2024-02-04 05:06:32 - ERROR] Exception in Tkinter callback
+[2024-02-04 05:06:32 - ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3.10/tkinter/__init__.py", line 1921, in __call__
+[2024-02-04 05:06:32 - ERROR]     return self.func(*args)
+  File "/root/test_bot/Python-NSE-Option-Chain-Analyzer/NSE_Option_Chain_Analyzer.py", line 854, in close_main
+[2024-02-04 05:06:32 - ERROR]     ask_quit: bool = messagebox.askyesno("Quit", "All unsaved data will be lost.\nProceed to quit?", icon='warning',
+  File "/usr/lib/python3.10/tkinter/messagebox.py", line 114, in askyesno
+[2024-02-04 05:06:32 - ERROR]     s = _show(title, message, QUESTION, YESNO, **options)
+  File "/usr/lib/python3.10/tkinter/messagebox.py", line 76, in _show
+[2024-02-04 05:06:32 - ERROR]     res = Message(**options).show()
+  File "/usr/lib/python3.10/tkinter/commondialog.py", line 45, in show
+[2024-02-04 05:06:32 - ERROR]     s = master.tk.call(self.command, *master._options(self.options))
+_tkinter.TclError: can't invoke "grab" command: application has been destroyed
+[2024-02-04 05:06:36 - INFO ] ----------Quitting Program----------
+[2024-02-05 12:22:58 - INFO ] ----------Logging Started----------
+[2024-02-05 12:22:58 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-05 12:23:09 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-05 12:23:09 - ERROR]   WARNING(
+[2024-02-05 12:23:16 - INFO ] ----------Logging Started----------
+[2024-02-05 12:23:16 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-05 12:23:21 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-05 12:23:21 - ERROR]   WARNING(
+[2024-02-05 12:25:07 - INFO ] ----------Logging Started----------
+[2024-02-05 12:25:07 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-05 12:25:18 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-05 12:25:18 - ERROR]   WARNING(
+[2024-02-05 12:26:03 - INFO ] ----------Quitting Program----------
+[2024-02-05 13:16:31 - INFO ] None
+[2024-02-05 13:16:31 - INFO ] None
+[2024-02-05 13:16:31 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-05 13:16:32 - INFO ] reset cookies
+[2024-02-05 13:51:25 - INFO ] None
+[2024-02-05 13:51:25 - INFO ] None
+[2024-02-05 13:51:25 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-05 13:51:25 - INFO ] reset cookies
+[2024-02-05 14:50:39 - INFO ] ----------Logging Started----------
+[2024-02-05 14:50:39 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-05 14:50:44 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-05 14:50:44 - ERROR]   WARNING(
+[2024-02-05 14:50:44 - INFO ] list index out of range <class 'IndexError'> 10
+[2024-02-05 14:50:50 - INFO ] ----------Logging Started----------
+[2024-02-05 14:50:50 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-05 14:50:58 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-05 14:50:58 - ERROR]   WARNING(
+[2024-02-05 15:18:09 - INFO ] None
+[2024-02-05 15:18:09 - INFO ] None
+[2024-02-05 15:18:09 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-05 15:18:10 - INFO ] reset cookies
+[2024-02-05 15:37:01 - INFO ] ----------Quitting Program----------
+[2024-02-05 15:37:05 - INFO ] ----------Quitting Program----------
+[2024-02-05 15:37:09 - INFO ] ----------Quitting Program----------
+[2024-02-06 11:10:13 - INFO ] ----------Logging Started----------
+[2024-02-06 11:10:13 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-06 11:10:23 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-06 11:10:23 - ERROR]   WARNING(
+[2024-02-06 11:15:29 - INFO ] None
+[2024-02-06 11:15:29 - INFO ] None
+[2024-02-06 11:15:29 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 11:15:39 - INFO ] None
+[2024-02-06 11:15:39 - INFO ] None
+[2024-02-06 11:15:39 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec70b7d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 11:16:49 - INFO ] None
+[2024-02-06 11:16:49 - INFO ] None
+[2024-02-06 11:16:49 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=FINNIFTY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec70b7d60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 4
+[2024-02-06 11:16:59 - INFO ] None
+[2024-02-06 11:16:59 - INFO ] None
+[2024-02-06 11:16:59 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec7288730>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 11:18:09 - INFO ] None
+[2024-02-06 11:18:09 - INFO ] None
+[2024-02-06 11:18:09 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=FINNIFTY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec70b7af0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 4
+[2024-02-06 11:18:19 - INFO ] None
+[2024-02-06 11:18:19 - INFO ] None
+[2024-02-06 11:18:19 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec72887c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 11:21:25 - INFO ] None
+[2024-02-06 11:21:25 - INFO ] None
+[2024-02-06 11:21:25 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 11:21:25 - INFO ] reset cookies
+[2024-02-06 11:23:30 - INFO ] None
+[2024-02-06 11:23:30 - INFO ] None
+[2024-02-06 11:23:30 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 11:23:37 - INFO ] reset cookies
+[2024-02-06 11:31:45 - INFO ] None
+[2024-02-06 11:31:45 - INFO ] None
+[2024-02-06 11:31:45 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 11:31:52 - INFO ] reset cookies
+[2024-02-06 11:49:03 - INFO ] None
+[2024-02-06 11:49:03 - INFO ] None
+[2024-02-06 11:49:03 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 11:49:13 - INFO ] None
+[2024-02-06 11:49:13 - INFO ] None
+[2024-02-06 11:49:13 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec70a9f30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 11:50:23 - INFO ] None
+[2024-02-06 11:50:23 - INFO ] None
+[2024-02-06 11:50:23 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=FINNIFTY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec70aa5f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 4
+[2024-02-06 11:50:33 - INFO ] None
+[2024-02-06 11:50:33 - INFO ] None
+[2024-02-06 11:50:33 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feec7280ee0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 11:52:40 - INFO ] ----------Logging Started----------
+[2024-02-06 11:52:40 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-06 11:52:58 - INFO ] ----------Logging Started----------
+[2024-02-06 11:52:58 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-06 11:53:08 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-06 11:53:08 - ERROR]   WARNING(
+[2024-02-06 11:53:30 - INFO ] ----------Logging Started----------
+[2024-02-06 11:53:30 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-06 11:53:34 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-06 11:53:34 - ERROR]   WARNING(
+[2024-02-06 12:04:37 - INFO ] ----------Quitting Program----------
+[2024-02-06 12:47:51 - INFO ] None
+[2024-02-06 12:47:51 - INFO ] None
+[2024-02-06 12:47:51 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 12:48:01 - INFO ] None
+[2024-02-06 12:48:01 - INFO ] None
+[2024-02-06 12:48:01 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcd877943d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-06 12:48:27 - INFO ] None
+[2024-02-06 12:48:27 - INFO ] None
+[2024-02-06 12:48:27 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 12:48:27 - INFO ] reset cookies
+[2024-02-06 12:48:44 - INFO ] ----------Logging Started----------
+[2024-02-06 12:48:44 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-06 12:48:48 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-06 12:48:48 - ERROR]   WARNING(
+[2024-02-06 12:48:54 - INFO ] ----------Quitting Program----------
+[2024-02-06 13:46:40 - INFO ] None
+[2024-02-06 13:46:40 - INFO ] None
+[2024-02-06 13:46:40 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 13:46:41 - INFO ] reset cookies
+[2024-02-06 13:49:13 - INFO ] None
+[2024-02-06 13:49:13 - INFO ] None
+[2024-02-06 13:49:13 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-06 13:49:14 - INFO ] reset cookies
+[2024-02-07 08:59:18 - INFO ] None
+[2024-02-07 08:59:18 - INFO ] None
+[2024-02-07 08:59:18 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 08:59:23 - INFO ] None
+[2024-02-07 08:59:23 - INFO ] None
+[2024-02-07 08:59:23 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /api/option-chain-indices?symbol=NIFTY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7278cb1c60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 4
+[2024-02-07 08:59:28 - INFO ] None
+[2024-02-07 08:59:28 - INFO ] None
+[2024-02-07 08:59:28 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Max retries exceeded with url: /option-chain (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcd87a2a7d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) <class 'requests.exceptions.ConnectionError'> 5
+[2024-02-07 08:59:30 - INFO ] reset cookies
+[2024-02-07 09:00:33 - INFO ] None
+[2024-02-07 09:00:33 - INFO ] None
+[2024-02-07 09:00:33 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 09:00:34 - INFO ] reset cookies
+[2024-02-07 09:10:37 - INFO ] ----------Quitting Program----------
+[2024-02-07 09:10:45 - INFO ] ----------Logging Started----------
+[2024-02-07 09:10:45 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-07 09:10:54 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-07 09:10:54 - ERROR]   WARNING(
+[2024-02-07 09:12:25 - INFO ] ----------Logging Started----------
+[2024-02-07 09:12:25 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-07 09:12:26 - INFO ] invalid literal for int() with base 10: '' <class 'ValueError'> 7
+[2024-02-07 09:12:33 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-07 09:12:33 - ERROR]   WARNING(
+[2024-02-07 09:12:56 - INFO ] ----------Logging Started----------
+[2024-02-07 09:12:56 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-07 09:13:02 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-07 09:13:02 - ERROR]   WARNING(
+[2024-02-07 09:58:05 - INFO ] ----------Quitting Program----------
+[2024-02-07 10:13:45 - INFO ] None
+[2024-02-07 10:13:45 - INFO ] None
+[2024-02-07 10:13:45 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 10:13:46 - INFO ] reset cookies
+[2024-02-07 10:13:48 - INFO ] None
+[2024-02-07 10:13:48 - INFO ] None
+[2024-02-07 10:13:48 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 10:13:49 - INFO ] reset cookies
+[2024-02-07 10:13:57 - INFO ] ----------Logging Started----------
+[2024-02-07 10:13:57 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-07 10:14:00 - INFO ] ----------Quitting Program----------
+[2024-02-07 10:14:06 - INFO ] None
+[2024-02-07 10:14:06 - INFO ] None
+[2024-02-07 10:14:06 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 10:14:07 - INFO ] reset cookies
+[2024-02-07 12:15:09 - INFO ] None
+[2024-02-07 12:15:09 - INFO ] None
+[2024-02-07 12:15:09 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 12:15:13 - INFO ] reset cookies
+[2024-02-07 12:15:13 - INFO ] None
+[2024-02-07 12:15:13 - INFO ] None
+[2024-02-07 12:15:13 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 12:15:13 - INFO ] reset cookies
+[2024-02-07 12:15:35 - INFO ] None
+[2024-02-07 12:15:35 - INFO ] None
+[2024-02-07 12:15:35 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 12:15:40 - INFO ] reset cookies
+[2024-02-07 12:20:45 - INFO ] ----------Quitting Program----------
+[2024-02-07 12:20:56 - INFO ] ----------Quitting Program----------
+[2024-02-07 12:21:04 - INFO ] ----------Logging Started----------
+[2024-02-07 12:21:04 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-07 12:21:04 - INFO ] invalid literal for int() with base 10: '' <class 'ValueError'> 7
+[2024-02-07 12:21:12 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-07 12:21:12 - ERROR]   WARNING(
+[2024-02-07 14:16:49 - INFO ] None
+[2024-02-07 14:16:49 - INFO ] None
+[2024-02-07 14:16:49 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 14:16:50 - INFO ] reset cookies
+[2024-02-07 14:22:46 - INFO ] None
+[2024-02-07 14:22:46 - INFO ] None
+[2024-02-07 14:22:46 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 14:22:47 - INFO ] reset cookies
+[2024-02-07 14:56:55 - INFO ] None
+[2024-02-07 14:56:55 - INFO ] None
+[2024-02-07 14:56:55 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 14:56:56 - INFO ] reset cookies
+[2024-02-07 14:56:59 - INFO ] None
+[2024-02-07 14:56:59 - INFO ] None
+[2024-02-07 14:56:59 - INFO ] HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=5) <class 'requests.exceptions.ReadTimeout'> 4
+[2024-02-07 14:56:59 - INFO ] reset cookies
+[2024-02-07 15:53:19 - INFO ] ----------Quitting Program----------
+[2024-02-09 04:04:19 - INFO ] ----------Logging Started----------
+[2024-02-09 04:04:19 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-09 04:04:20 - INFO ] invalid literal for int() with base 10: '' <class 'ValueError'> 7
+[2024-02-09 04:04:33 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-09 04:04:33 - ERROR]   WARNING(
+[2024-02-09 04:04:49 - INFO ] ----------Quitting Program----------
+[2024-02-09 04:04:55 - INFO ] ----------Logging Started----------
+[2024-02-09 04:04:55 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-09 04:05:02 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-09 04:05:02 - ERROR]   WARNING(
+[2024-02-09 04:05:16 - INFO ] ----------Logging Started----------
+[2024-02-09 04:05:16 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-09 04:05:22 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-09 04:05:22 - ERROR]   WARNING(
+[2024-02-09 04:05:26 - INFO ] ----------Quitting Program----------
+                                                                   [2024-02-09 15:08:46 - INFO ] ----------Logging Started----------
+[2024-02-09 15:08:46 - INFO ] Linux 5.15.133.1-microsoft-standard-WSL2 .py version 5.5
+[2024-02-09 15:08:50 - ERROR] /usr/local/lib/python3.10/dist-packages/tksheet/sheet.py:226: UserWarning: There have been many changes from tksheet version 6.x.x to version 7.x.x. Please see the changelog for more information.
+[2024-02-09 15:08:50 - ERROR]   WARNING(
+[2024-02-09 15:40:33 - INFO ] ----------Quitting Program----------
